@@ -144,7 +144,7 @@ color: #f4f4fd;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 48px;
-   width: 496px;
+   max-width: 496px;
 }
 
 .section-one-button {
@@ -249,6 +249,11 @@ font-weight: 500;
 /* section-three end*/
 
 /* section-four start*/
+
+.section-four-title {
+   padding-top: 120px;
+   margin-bottom: 72px;
+}
 
 .section-four-list {
    display: flex;
