@@ -130,32 +130,53 @@ color: #f4f4fd;
 
 .main-section-one {
    background-color: #2e2f42;
-   width: 1440px;
-      height: 600px;
+   padding: 188px 0;
+
 }
 
 .main-title-one {
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
+   font-weight: 700;
    letter-spacing: 0.02em;
    color: #ffffff;
-   
-
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 48px;
+   width: 496px;
 }
 
 .section-one-button {
+   display: block;
    background-color: #4D5AE5;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: #ffffff;
-   cursor: pointer
+   cursor: pointer;
+   border-radius: 4px;
+      width: 169px;
+      height: 56px;
+      margin: 0 auto;
 }
 
 .section-one-button:hover,
 .section-one-button:focus {
    background-color: #404BBF;
+}
+/* section-one end*/
+
+/* section-two start*/
+
+.main-section-two {
+padding: 120px 0;
+}
+
+.section-two-list {
+   display: flex;
+   gap: 24px;
+   
 }
 
 .section-two-title {
@@ -174,9 +195,21 @@ color: #f4f4fd;
       color: #434455;
 }
 
+/* section-two end*/
 
+/* section-three start*/
 .main-section-three {
    background-color: #f4f4fd;
+   padding-top: 120px;
+}
+
+.section-three-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-three-title {
+   margin-bottom: 72px;
 }
 
 .section-three-title,
@@ -210,6 +243,15 @@ font-weight: 500;
 
 .section-three-list-item {
    background-color: #FFFFFF;
+   margin-bottom: 120px;
+}
+
+/* section-three end*/
+
+/* section-four start*/
+
+.section-four-list {
+   display: flex;
 }
 
 .section-four-list-title {
