@@ -322,11 +322,22 @@ font-weight: 500;
       letter-spacing: 0.02em;
       color: #434455;
 }
+/* section-four end*/
+/* footer start*/
+
+.page-footer {
+   padding: 100px 0;
+}
 
 .footer-logo-part { 
    color: #f4f4fd ; 
 
 }
+.footer-logo{
+   display: inline-block;
+   margin-bottom: 16px;
+}
+
 
 .footer-paragraph {
    font-weight: 400;
@@ -335,4 +346,6 @@ font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #f4f4fd;
+      max-width: 264px
 }
+
